@@ -87,3 +87,119 @@
 #         print('*',end='')
 #     print()
 
+# list / array
+# array = [1,'nice',3.14,True]
+
+# array.append('dd') # add to end
+# array.insert(2,10) # add to index insert(index,add)
+# array.pop() # delete from end
+# array.remove(3) # delete by index/name/stroke
+# print(len(array))
+# print(array)
+
+# num = [1,2,3,454,4]
+# for numb in num:
+#     print(num)
+
+# laun = ['python','c++','java']
+
+# for i in laun:
+#     print(i.upper())
+#     # for j in i:
+#     #     print(j)
+# for i in laun:
+#     print(len(i))
+
+# upper_lang = []
+# for i in laun:
+#     print(i.upper())
+# print(upper_lang)
+
+# matrix = [[1,2,3],[4,5,6],[7,8,9]]
+# print(matrix[2][1] == matrix[-1][1])
+
+# matrix = [
+#     [1,2,3],
+#     [4,5,6],
+#     [7,8,9]
+# ]
+
+# counter = 0
+# for i in matrix:
+#     for j in i:
+#         counter += j
+
+# print(counter)
+
+# 1.
+# num = input('write ')
+# if(num.isalpha()):
+#     print('write number')
+# else:
+#     if(int(num) % 3 == 0):
+#         print('делится на 3 без остатка')
+#     elif(int(num) % 15 == 0):
+#         print('делится на 15 без остатка')
+#     elif(int(num) % 5 == 0):
+#         print('делится на 5 без остатка')
+#     else:
+#         print('число не на что не делится')
+
+
+# 2.
+# num = 0
+# while(int(num) >= 0):
+#     num = input('write ')
+
+# 3.
+# text = input('write ')
+# num = 0
+# word = 0
+# space = 0
+# for i in text:
+#     if(i.isdigit()):
+#         num += 1
+#     elif(i.isalpha()):
+#         word += 1
+#     elif(i.isspace()):
+#         space += 1
+
+# print(num)
+# print(word)
+# print(space)
+
+# 4.
+# array = [3,7,2,9,4,8,2]
+# odd = 0
+# sum = 0
+# for i in array:
+#     sum += i
+#     if(i % 2 == 0):
+#         odd += 1
+    
+# print(odd)
+# print(sum)
+
+# 5.
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [+8,9]
+]
+counter = 0
+
+
+# for i in matrix:
+#     for j in i:
+#         counter += 1
+
+# for i in matrix:
+#     for j in i:
+#         col += matrix[j][i]
+col = 0
+for i in matrix:
+    for j in i:
+        col += j
+    print(col)
+
+# print(counter)
